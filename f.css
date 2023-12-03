@@ -1,0 +1,44 @@
+
+.contact-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+}
+body{
+    background-image: url('d.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+}
+h1, h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.dropbt {
+    display: none;
+  }
+  
+  /* Media query to show the button only in mobile mode */
+  @media only screen and (max-width: 768px) {
+    .dropbt {
+      display: block;
+    }
+  }
+input,
+textarea,
+button {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+

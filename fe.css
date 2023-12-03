@@ -1,0 +1,15 @@
+.dropbt {
+    display: none;
+  }
+  
+  /* Media query to show the button only in mobile mode */
+  @media only screen and (max-width: 768px) {
+    .dropbt {
+      display: block;
+    }
+  }
+  header {
+
+    text-align: center;
+    padding: 1em;
+}
